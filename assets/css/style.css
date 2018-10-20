@@ -12,7 +12,7 @@
 
  body{
    position:relative;
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/16/63/0358257bd48f668.jpg"); 
+    background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47d2b1f32cc05c976af4a39256e01cba&auto=format&fit=crop&w=1050&q=80"); 
     font-size: 18px;   
 }
 
@@ -64,7 +64,8 @@ footer{
 }
 
 .bc-color{
-    background-color: #ffffff;
+    background-color: rgb(193, 230, 219);
+
 }
 
 .push{
@@ -97,4 +98,11 @@ min-height: 20%;
       
   }
 
- 
+ .border-info{
+     background-image: url("https://images.unsplash.com/photo-1492546643178-96d64f3fd824?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c8b0ca61fa643ce14689caf7a5bd84d&auto=format&fit=crop&w=1051&q=80");
+     background-repeat:repeat
+ }
+
+ .nav-link{
+     color:red
+ }
