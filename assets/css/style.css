@@ -35,13 +35,12 @@ h2{
 
 h4{
     position: absolute;
-    bottom:20%;
+    bottom:5%;
     z-index: 1;
     padding:2px;
     right:0;
     left:0;
     width:90%;
-    color: #dddddd;
     font:16px;
     background-color: teal;
     text-align: center;
@@ -96,4 +95,8 @@ min-height: 20%;
       bottom: 0;
       width:100%
       
+  }
+
+  a{
+      color: #ffffff
   }
