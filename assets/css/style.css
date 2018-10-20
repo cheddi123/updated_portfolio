@@ -12,8 +12,10 @@
 
  body{
    position:relative;
-    background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47d2b1f32cc05c976af4a39256e01cba&auto=format&fit=crop&w=1050&q=80"); 
-    font-size: 18px;   
+    background-image: url("https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee039d16c1a1638867bb1cc95bf3b833&auto=format&fit=crop&w=1050&q=80"); 
+    font-size: 18px;
+    background-repeat:repeat;
+    background-size: cover
 }
 
 

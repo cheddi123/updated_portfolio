@@ -21,14 +21,15 @@ src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"
     var name = $("#name").val();
     var email =$("#email").val();
     var message = $("#message").val();
-
+    var date = moment().format("llll")
+    
     // object to hold contact information
     var contact_information={
        name,
        email,
        message,
-       dateAdded: firebase.database.ServerValue.TIMESTAMP
-
+       dateAdded: firebase.database.ServerValue.TIMESTAMP,
+       date
     };
 
     // push the data into database
